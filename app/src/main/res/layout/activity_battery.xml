@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/screenRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/screen_background">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/screen_background"
+        app:title="Battery Receiver"
+        app:titleTextColor="@color/text_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System Battery Notification"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_main"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Current Battery Percentage"
+            android:textSize="15sp"
+            android:textColor="@color/text_muted"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/txtBatteryPercentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="--%"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_primary"
+            android:gravity="center" />
+
+        <ProgressBar
+            android:id="@+id/batteryProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="25dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="@color/purple_primary"
+            android:progressBackgroundTint="@color/purple_soft" />
+
+        <TextView
+            android:id="@+id/txtBatteryStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Listening for battery broadcast..."
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/text_muted" />
+
+    </LinearLayout>
+
+</LinearLayout>

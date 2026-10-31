@@ -1,0 +1,86 @@
+============================================================
+                    AI USAGE DECLARATION
+============================================================
+
+Name: Alvee Abdullah Khan
+Student ID: 22201170
+Assignment: CSE 489 - Mobile Application Development, Assignment 2
+            (BroadcastReceiver Android Application)
+Date: 31-10-2026
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[✓] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[ ] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[✓] Learning/understanding concepts
+[✓] Debugging my code
+[✓] Generating code snippets
+[✓] Writing text content
+[✓] Design/styling ideas
+[ ] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+I used ChatGPT as a development and learning assistant for my CSE 489
+Assignment 2 Android application, named BroadcastReceiver. 
+ChatGPT assisted substantially with the navigation drawer and fragment
+structure; the custom broadcast flow; the system battery receiver;
+internet image loading and pinch zoom; video playback; and audio
+playback, including a timeline/seek bar. It also helped explain and
+troubleshoot errors encountered while building or running the app,
+such as an unresolved activity reference, XML parsing errors, black
+video output, and image zoom behavior.
+
+I integrated the suggested material into my Android Studio project and
+performed hands-on builds and testing on an Android phone. The code and
+documentation reflect significant AI assistance, not solely
+independently written code. I am responsible for checking, understanding,
+correcting, and verifying the final submission.
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: MainActivity.kt
+Section: Navigation drawer setup, toolbar, and fragment switching.
+
+File: BroadcastFragment.kt; fragment_broadcast.xml; arrays.xml
+Section: Broadcast type spinner and Proceed navigation.
+
+File: BatteryActivity.kt; activity_battery.xml
+Section: ACTION_BATTERY_CHANGED receiver and battery percentage UI.
+
+File: ImageScaleFragment.kt; ZoomableImageView.kt;
+      fragment_image_scale.xml
+Section: Internet image loading, pinch zoom, dragging, and reset.
+
+File: VideoFragment.kt; fragment_video.xml
+Section: In-app video playback, controls, and layout troubleshooting.
+
+
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+Signature: Alvee 
+Date: 31-10-2026
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navBroadcast"
+            android:title="Broadcast Receiver" />
+
+        <item
+            android:id="@+id/navImageScale"
+            android:title="Image Scale" />
+
+        <item
+            android:id="@+id/navVideo"
+            android:title="Video" />
+
+        <item
+            android:id="@+id/navAudio"
+            android:title="Audio" />
+
+    </group>
+
+</menu>
